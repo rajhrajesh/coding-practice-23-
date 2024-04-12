@@ -21,6 +21,8 @@ class BlogList extends Component {
       imageUrl: eachItem.image_url,
       avatarUrl: eachItem.avatar_url,
       topic: eachItem.topic,
+      author: eachItem.author,
+      
     }))
     this.setState({blogsData: updatedData, isLoadig: false})
   }
